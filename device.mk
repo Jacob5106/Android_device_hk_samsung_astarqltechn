@@ -6,3 +6,10 @@
 #
 
 LOCAL_PATH := device/samsung/astarqltechn
+
+# device/samsung/astarqltechn/device.mk
+
+PRODUCT_NAME := omni_astarqltechn
+PRODUCT_DEVICE := astarqltechn
+PRODUCT_BRAND := Samsung
+PRODUCT_MODEL := Galaxy Astarql
