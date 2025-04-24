@@ -5,10 +5,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_astarqltechn.mk
-
 COMMON_LUNCH_CHOICES := \
     omni_astarqltechn-user \
     omni_astarqltechn-userdebug \
     omni_astarqltechn-eng
+
+PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/omni_astarqltechn.mk
